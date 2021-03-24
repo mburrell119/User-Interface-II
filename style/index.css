@@ -18,7 +18,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -50,15 +49,40 @@ table {
 
 /* Add CSS styling here */
 header{
-    background-color: white;
+    background-color: whitesmoke;
     text-align: center;
     border: 2px solid whitesmoke;
 }
-*{
-    color: black;
+ html {
+    font-size:62.5%;
     background-color: whitesmoke;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 10px;
+ }   
+ h2 {
+     font-size: 4rem;
+     font-weight: bold;
+ }
+ p {
+     font-size: 1.6rem;
+}
+.top-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: column;
+}
+.mid-content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.profileimg {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
 }
 h2{
     text-align: center;
@@ -80,24 +104,20 @@ p{
 .projects {
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 .sidebox {
-    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 40%;
 }
 footer {
-    text-align: center;
-    background-color: silver;
-    height: 50px;
-}
-footer button {
+    display: flex;
+    justify-content: flex-end;
+    /* align-items: flex-end; */
     background-color: whitesmoke;
-    margin-top: 2%;
-}
-footer a {
-    text-decoration: none;
-    font-size: 1.5em;
-    background-color:whitesmoke;
-    height: 30px;
-    width: 150px;
-    color: silver;
+    width: 100%;
+    margin-right: 40%;
 }
