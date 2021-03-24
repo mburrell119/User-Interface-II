@@ -57,13 +57,24 @@ header{
     font-size:62.5%;
     background-color: whitesmoke;
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: #4f4f4f;
  }   
  h2 {
      font-size: 4rem;
      font-weight: bold;
  }
+ h4 {
+     background-color: white;
+ }
  p {
      font-size: 1.6rem;
+     text-align: center;
+     justify-items: center;
+}
+.links {
+    background-color: #E3BC9A;
+    width: 100%;
 }
 .top-content {
     display: flex;
@@ -81,25 +92,20 @@ header{
     width: 100%;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat; 
 }
 h2{
     text-align: center;
-    font-size: 1.5em;
-}
-p{
-    text-align: center;
-}
-.top-nav{
-    text-align: center;
+    font-size: 2em;
 }
 
-.top-nav a{
+a {
     width: 20px;
     height: 10px;
     text-decoration: none;
-    font-size: .75em;
+    font-size: 3em;
+    color: white;
+    letter-spacing: .4rem;
 }
 .projects {
     display: flex;
